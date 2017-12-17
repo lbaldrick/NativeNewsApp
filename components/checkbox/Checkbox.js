@@ -5,7 +5,6 @@ import {
     Text,
     View,
     TouchableHighlight,
-    Image,
 } from 'react-native';
 
 const Checkbox = ({keyValue, labelText, isChecked, onToggle}) => {
@@ -36,20 +35,23 @@ const styles = StyleSheet.create({
     checkBoxHolder: {
         flexDirection: 'row',
         alignItems: 'center',
-    },
-    checkedView: {
-        flex: 1,
-        width: 10,
-        height: 10,
-        backgroundColor: 'white',
-        borderColor: 'black',
+        marginLeft: 10,
     },
     uncheckedView: {
         flex: 1,
-        width: 10,
+        width: 20,
+        height: 10,
+        backgroundColor: 'white',
+        borderColor: 'black',
+        borderWidth: 2,
+    },
+    checkedView: {
+        flex: 1,
+        width: 20,
         height: 10,
         backgroundColor: 'red',
-        borderColor: 'red',
+        borderColor: 'black',
+        borderWidth: 2,
     },
     checkBoxLabel: {
         fontSize: 17,

@@ -26,7 +26,7 @@ class SourceCheckboxListContainer extends Component {
                 return {
                     keyValue: id,
                     labelText: name,
-                    isChecked: isSelected,
+                    isChecked: isSelected === "true",
                     onToggle,
                 };
             });
