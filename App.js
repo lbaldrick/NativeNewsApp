@@ -6,10 +6,10 @@
 
 import React, { Component } from 'react';
 import NewsItemListContainer from './components/news-item-list-container/NewsItemListContainer';
+import SourceCheckboxListContainer from './components/source-checkbox-list-container/SourceCheckboxListContainer';
 import {
   Platform,
   StyleSheet,
-  Text,
   View
 } from 'react-native';
 
@@ -27,7 +27,7 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Header style={styles.header}/>
-          <NewsItemListContainer />
+          <SourceCheckboxListContainer />
       </View>
     );
   }

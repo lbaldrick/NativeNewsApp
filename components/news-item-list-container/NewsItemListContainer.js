@@ -5,9 +5,8 @@ import NewsItemList from '../news-item-list/NewsItemList';
 const URL = 'http://192.168.0.37:3003/news/all';
 
 import {
-    FlatList,
     StyleSheet,
-    View } from 'react-native';
+    } from 'react-native';
 
 class NewsItemListContainer extends Component {
     constructor(props) {

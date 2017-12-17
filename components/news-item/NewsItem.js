@@ -6,7 +6,7 @@ import {
     Text,
     View } from 'react-native';
 
-const NewsItem = ({title, source, description, author, url}) => {
+const NewsItem = ({title, description, author, url}) => {
     return (
         <View style={styles.container}>
             <View style={styles.subContainer}>
